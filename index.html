@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projetinho brabo</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+    </style>
 </head>
 <body>
     <h1>Projetinho pae chama 🔥</h1>
-    <p>foguete não dá ré</p>
+    <p>foguete não dá ré</p> 
+    <p id="mensagem"> oxi</p>
+    <script>
+        var nome = prompt("Qual é seu nome?");
+        document.getElementById("mensagem").innerText = "oi " + nome;
+    </script>
 </body>
 </html>
